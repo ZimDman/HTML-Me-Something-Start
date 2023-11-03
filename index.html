@@ -2,66 +2,87 @@
 <html>
    <head>
       <title>My favorite Daphnes</title>
+      <link rel = "stylesheet" type = "text/css" href = "styles.css" />
       <style>
         body {
           background-image: url("images/background_flower.jpg");
           background-color: rgba(255, 255, 255, 0.5);
-          background-blend-mode: lighten;
+          background-blend-mode:soft-light;
+          background-repeat:round;
+          margin: 8px;
+          display: block;
+          padding: 0dvh;
         }
-        h {
+        h2 {
          font-weight:bold;
+         color:mediumvioletred;
+         /* text-shadow:9px 9px 15px black; */
+         text-shadow: 0 0 20px #ff0000, 0 0 1px #0000ff;;
+         font-family: Arial, Helvetica, sans-serif;
+        }
+      
+        p {
+         color:navy;
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         text-shadow:1px 1px 2px floralwhite;
+         font-size: medium;
+         
         }
         
       </style>
       
 
    </head>
+
    <body>
       <!-- Write your HTML in this file! -->
-      
-      <h1>Daphnes I have worked with</h1>
+      <header>
+      <h1 id="mainHeading">Daphnes I have worked with</h1>
+      </header>
       <main>
-       <p>Working as a horticulturist, i have had the pleasure of experiencing many variety of plant material. Few have captured my attention and imagination as the genus Daphne. Through my work in three distinct botanical gardens i have come to find my favorite Daphnes which i hope to share and inspire other. </p>
-      <h>All about Daphne</h>
+       <p1 id="testP" class="funParagraph">Working as a horticulturist, i have had the pleasure of experiencing many variety of plant material. Few have captured my attention and imagination as the genus Daphne. Through my work in three distinct botanical gardens i have come to find my favorite Daphnes which i hope to share and inspire others to include into your own garden. </p1>
+      <div id="firstHeader">
+       <h3 style="text-align: center;"><b>All about Daphne</b></h>
+      </div>
        <p>The Daphne genus comes from the family Thymelaeaceae. Mostly consisting of small trees and shrubs, Daphnes are not native to the united states. Depending on whom you talk to and what resource you reference there are between 70 - 95 species. Most of these come from Asia, but some also come from Africa and Europe.</p>
-      <h>My favorite Daphnes</h>
-       <ol> 
+      <h3>My favorite Daphnes</h3>
+       <ol id="list"> 
          <li>Daphne odora</li>
          <li>Daphne genkwa</li>
          <li>Daphne cneorum</li>
          <li>Daphne pontica</li>
        </ol>
-       <article>
-         <h>Daphne odora</h>
+       <article class="daph1">
+         <h2>Daphne odora</h2>
          <div id="odora">
-            <image src= "images\odora_flower.jpg" alt = "Daphne odora flower and habit" height = "100" width ="100"/>
-         </div>
-         <P>Daphne odora is my personal favorite that i got a chance to work with. Imagine walking through a garden in the SouthEastern corner of North Carolina in the middle of January only to smell a fantastic &quot;Bubblegum Orchid&quot; scent! This is a tiny everygreen shrub. The tiny pink flowers themselves are insignificant in display, but pack a powerful odor....hence the name Daphne odora! </P>
-       </article>
-       <article>
-         <h>Daphne genkwa</h>
+            <image src= "images\odora_flower.jpg" alt = "Daphne odora flower and habit" height = "350" width ="500" />    
+         <P style="text-align: justify;">Daphne odora is my personal favorite that i got a chance to work with. Imagine walking through a garden in the SouthEastern corner of North Carolina in the middle of January only to smell a fantastic &quot;Bubblegum Orchid&quot; scent! This is a tiny everygreen shrub. The tiny pink flowers themselves are insignificant in display, but pack a powerful odor....hence the name Daphne odora! </P>
+        </div>
+      </article>
+       <article class="daph2">
+         <h2>Daphne genkwa</h2>
          <div id="genkwa">
-            <image src="images\genkwa_flower.jpg" alt="Daphne genkwa flower" height = "100" width = "100"/>
-            <image src="images\genkwa_foliage.jpg" alt="Daphne genkwa habit and foliage" height="100" width="100"/>
-         </div>
-         <p>Daphne genkwa comes to us from Asia and was used medicinally in China. I have personally been growing this Daphne for 3 years right here in St Louis! They said it couldn't be done. This small shrub gets its common name &quot;lilac daphne&quot; from the color of its tiny flowers. This plant was brought into the Eruopean garden during the age of discovery through a victorian era plant collector.</p>
-       </article>
-       <article>
-         <h>Daphne cneorum</h>
+            <image src="images\genkwa_flower.jpg" alt="Daphne genkwa flower" height = "300" width = "400"/>
+            <image src="images\genkwa_foliage.jpg" alt="Daphne genkwa habit and foliage" height="300" width="400"/>
+         <p style="text-align: justify;">Daphne genkwa comes to us from Asia and was used medicinally in China. I have personally been growing this Daphne for 3 years right here in St Louis! They said it couldn't be done. This small shrub gets its common name &quot;lilac daphne&quot; from the color of its tiny flowers. This plant was brought into the Eruopean garden during the age of discovery through a victorian era plant collector.</p>
+        </div>
+      </article>
+       <article class="daph3">
+         <h2>Daphne cneorum</h2>
          <div id="cneorum">
-            <image src="images\cneorum_habit.jpg" alt="Daphne cneorum habit and flower" height="200" width="200"/>
-            <image src="images\cneorum_flower.jpg" alt="Daphne cneorum close up of flower" height="200" width="200"/>
-         </div>
-         <p>Daphne cneorum is native to mountain regions of Southern Europe. Small shrub that could be considered for ground cover. This plant is stunning in a rock garden! Fragrant small flowers that are have an attractive aesthetic.</p>
-       </article>
-       <article>
-         <h>Daphne pontica</h>
+            <image src="images\cneorum_habit.jpg" alt="Daphne cneorum habit and flower" height="300" width="400"/>
+            <image src="images\cneorum_flower.jpg" alt="Daphne cneorum close up of flower" height="300" width="400"/>
+         <p style="text-align: justify;">Daphne cneorum is native to mountain regions of Southern Europe. Small shrub that could be considered for ground cover. This plant is stunning in a rock garden! Fragrant small flowers that are have an attractive aesthetic.</p>
+        </div>
+      </article>
+       <article class="daph4">
+         <h2>Daphne pontica</h2>
          <div id="pontica">
-            <image src="images\pontica_habit.jpg" alt="Daphne pontica habit with flower" height="150" width="150"/>
-            <image src="images\pontica_flower.jpg" alt="Daphne pontica close up on flower" height="150" width="150"/>
-         </div>
-         <p>Daphne pontica comes to us from the Bulgeria and northern Turkey area. This common name of &quot;Twin flower daphne&quot;is one of the few Daphnes with yellow flowers. This Daphne is known for its leathery like textured leaves.</p>
-       </article>
+            <image src="images\pontica_habit.jpg" alt="Daphne pontica habit with flower" height="300" width="400"/>
+            <image src="images\pontica_flower.jpg" alt="Daphne pontica close up on flower" height="300" width="400"/>
+         <p style="text-align: justify;">Daphne pontica comes to us from the Bulgeria and northern Turkey area. This common name of &quot;Twin flower daphne&quot;is one of the few Daphnes with yellow flowers. This Daphne is known for its leathery like textured leaves.</p>
+        </div>
+      </article>
       </main>
       <footer>
          <p>Author: &copy;<em>Ryan Winkler</em></p>

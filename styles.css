@@ -1,1 +1,87 @@
 /* Write your CSS here! */
+.daph1 {
+    text-align: center;
+    background-color:lavenderblush;
+    width: 1550px;
+    border: 15px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+
+.daph2 {
+    text-align: center;
+    background-color:thistle;
+    width: 1550px;
+    border: 15px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+
+.daph3 {
+    text-align: center;
+    background-color:floralwhite;
+    width: 1550px;
+    border: 15px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+
+.daph4{
+    text-align: center;
+    background-color: lightgrey;
+    width: 1550px;
+    border: 15px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+
+#mainHeading {
+     color: red;
+     outline-width: thick ; 
+     text-align: center; 
+     font-family:cursive;     
+} 
+
+
+
+.funParagraph{
+    text-decoration:solid;
+    text-shadow:4px 4px 5px honeydew;
+    color: green;
+    font-size: large;font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#list {
+    font-size: large;
+    font-weight: bolder;
+    color:indigo;
+}
+
+#odora {
+    outline-width: thick ;
+    outline-style: double;
+    padding: 10px;
+}
+
+
+#genkwa {
+    outline-width: thick;
+    outline-style: dashed;
+    outline-color:darkorchid;
+    padding: 10px;
+}
+
+#cneorum {
+    outline-width:medium;
+    outline-style: groove;
+    outline-color: rebeccapurple;
+    padding: 10px;
+}
+
+#pontica {
+    outline-width: medium;
+    outline-style:dotted ;
+    outline-color: indigo;
+    padding: 10px;
+}
